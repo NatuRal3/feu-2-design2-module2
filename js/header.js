@@ -5,8 +5,11 @@ headerContent.innerHTML += `
  <div class="container flex row">
         <div class="main_logo">
           <a href="index.html">
-            <img src="images/RainyDays_Logo.png" alt="Site logo" />
+            <img src="images/AD_logo.png" alt="Site logo" />
           </a>
+          <p class="logo-text">
+          PREMIUM DESIGN
+          </p>
         </div>
         <label for="hamburger_menu"><i class="fas fa-bars"></i></label>
         <input type="checkbox" id="hamburger_menu" />
