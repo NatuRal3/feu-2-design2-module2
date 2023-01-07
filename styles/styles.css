@@ -1,3 +1,14 @@
+
+:root{
+  --primary-color: rgb(242, 240, 240);
+  --secondary-color: #BCBCBC;
+  --tertiary-color: #0a470a;
+  --marking-color: #0a470a;
+  /* --marking-color: #00000080; */
+
+}
+
+
 /*############ GLOBAL ############*/
 html > * {font-family: "Roboto", sans-serif !important;}
 html,body {height: 100%;margin: 0;}
@@ -25,11 +36,9 @@ ul {padding-left: 0;}
 .space-around {justify-content: space-around;}
 .wrap{flex-wrap: wrap;}
 .center-items {display: flex;justify-content: center; align-items: center;}
-
-
 /* Text and fonts */
 a:link,a:visited {text-decoration: none; color: white;}
-a:hover {text-decoration: none; color: rgb(91, 130, 140);}
+a:hover {text-decoration: none; color:var(--tertiary-color);}
 
 .active {text-decoration: underline;}
 .no-dec {text-decoration: none;}
@@ -37,8 +46,8 @@ a:hover {text-decoration: none; color: rgb(91, 130, 140);}
 .bold {font-weight: bold;}
 .white-text {color: white;}
 .txt-center{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
-.mark-black{background-color: #00000080; }
-.hidn-link{text-decoration: wavy; color: rgb(91, 130, 140);}
+.mark-black{background-color:var(--marking-color); }
+.hidn-link{text-decoration: wavy; color:var(--tertiary-color);}
 
 /* Decoration and styling */
 .border {border: 1px solid black;}
@@ -87,17 +96,17 @@ button:hover{color: rgb(91, 130, 140);}
 
 
 /*--- Header (⚠JS⚠)---*/
-header {background-color: #111010;}
+header {background-color: #BCBCBC;}
 .container {max-width: 1000px; margin-left: auto;margin-right: auto;}
 .header-wrapper { max-width: 900px; min-width: 900px;}
 .main_logo {padding: 15px 15px 5px 25px;}
 .main_logo img {max-height: 10vh;}
-nav {display: none; position: absolute; top: 80px; background: #111010; z-index: 1000; right: 0px; font-size: 1.4rem;}
-nav li {display: block; padding: 10px 10px;}
+nav {display: none; position: absolute; top: 80px; z-index: 1000; right: 0px; font-size: 1.4rem; font-weight: lighter;}
+nav li {display: block; padding: 10px 10px; color: var(--tertiary-color); }
 #hamburger_menu {display: none;}
 #hamburger_menu:checked ~ nav {display: block;}
 .fas {color: #ffffff;}
-.fas:hover{color: rgb(91, 130, 140) ;}
+.fas:hover{color:var(--tertiary-color) ;}
 
 /*--- Index/Landingpage ---*/
 /* Main image */
