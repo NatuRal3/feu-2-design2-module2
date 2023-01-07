@@ -10,6 +10,7 @@ li {overflow: hidden;}
 ul {padding-left: 0;}
 
 /* MODULAR CSS */
+
 /* FLEX */
 .flex {display: flex;}
 .grow {flex-grow: 1;}
@@ -109,7 +110,14 @@ nav li {display: block; padding: 10px 10px;}
 
 .top-row {
   align-items: inherit;
-  background-image: url(../images/background.jpg);
+  /* background-image: url(../images/background.jpg); */
+  background-image: repeating-radial-gradient(
+    circle at center,
+    transparent 0,
+    transparent 2px,
+    #ccc 3px,
+    #ccc 4px
+  );
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;

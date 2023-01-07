@@ -12,9 +12,9 @@ headerContent.innerHTML += `
         <input type="checkbox" id="hamburger_menu" />
         <nav>
           <ul class="categories">
-            <li><a href="products.html#men">MEN</a></li>
-            <li><a href="products.html#women">WOMEN</a></li>
-            <li><a href="products.html#children">CHILDREN</a></li>
+            <li><a href="products.html#furniture">Furniture</a></li>
+            <li><a href="products.html#lighting">Lighting</a></li>
+            <li><a href="products.html#accessories">Accessories</a></li>
             <li>
               <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
             </li>
