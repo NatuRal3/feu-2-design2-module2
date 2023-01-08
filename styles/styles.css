@@ -88,7 +88,7 @@ body {
 .cat-container{height: 100%;}
 .cat-dir{flex-direction: column;}
 .cat-tile {position: relative; text-align: center; color: white; padding: 10px 0px 10px 0px;}
-.link-tile {color: var(--link-color_white);}
+.link-tile {color: var(--link-color_white)!important;}
 .link-tile:visited {color: var(--link-color_white);}
 
 .tile-pic{height: 350px; width: 410px;}
@@ -139,7 +139,6 @@ body {
 footer ul {font-size: 0.8rem; margin-top: 0px; margin-bottom: 5px;}
 .footer-container{width: 200px; padding-top: 25px; padding-bottom: 25px; flex-direction: column;}
 .link {color:var(--link-color_white); text-decoration: underline; text-decoration-color:var(--tertiary-color);}
-/* .link a:before, .link a:after {color: var(--link-color_white);} */
 .li_foot {font-size: 1.2rem; overflow: hidden; text-transform: uppercase;}
 
 footer {
