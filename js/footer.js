@@ -5,13 +5,11 @@ footerContent.innerHTML += `
 <div class="footer-container flex space-around">
         <!-- First row -->
         <div>
-          <a href="contact.html"><h2 class="link">Contact us</h2></a>
-          <br />
-          <h2>Our adress</h2>
+          <h2>contact</h2>
           <ul>
-            <li>The Duke Street 856, London</li>
-            <li>Contact@rainydays.com</li>
-            <li>+56 850 (93) 1488</li>
+            <li>Nasjonal Gaten 19, Kristiania</li>
+            <li>Contact@agerupdesign.no</li>
+            <li>+47 123 45 678</li>
           </ul>
         </div>
 
@@ -24,8 +22,8 @@ footerContent.innerHTML += `
 
           <h2>Follow</h2>
           <ul>
-            <li class="link"><a href="">Intsagram</a></li>
-            <li class="link"><a href="">Facebook</a></li>
+            <li class="link"><a href="www.instagram.com">Intsagram</a></li>
+            <li class="link"><a href="www.facebook.com">Facebook</a></li>
           </ul>
         </div>
 

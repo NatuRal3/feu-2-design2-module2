@@ -8,7 +8,7 @@ headerContent.innerHTML += `
             <img src="images/AD_logo.png" alt="Site logo" />
           </a>
           <p class="logo-text">
-          PREMIUM DESIGN
+          AGERUP DESIGN
           </p>
         </div>
         <label for="hamburger_menu"><i class="fas fa-bars"></i></label>

@@ -7,10 +7,9 @@
   
   --text-color-headers:#18181A;
   --text-color_dark: #18181A;
+  --link-color_white:white;
  
   --footer-color:#18181A;
-
-  /* --marking-color: #00000080; */
 
 }
 
@@ -36,35 +35,24 @@ ul {padding-left: 0;}
 .row {flex-direction: row; align-items: center; justify-content: space-around;}
 .allign {align-content: center;}
 .items-center{align-items: center;}
-.flex-start{align-items: flex-start;}
-.flex-end{align-items: flex-end;}
 .space-evenly {justify-content: space-evenly;}
 .space-around {justify-content: space-around;}
-.wrap{flex-wrap: wrap;}
 .center-items {display: flex;justify-content: center; align-items: center;}
+
 /* Text and fonts */
 a:link,a:visited {text-decoration: none; color: var(--text-color_dark)}
-a:hover {text-decoration: underline; color:var(--tertiary-color);
-
-
-}
+a:hover {text-decoration: underline; color:var(--tertiary-color);}
 
 .active {text-decoration: underline;}
-.no-dec {text-decoration: none;}
-.nomargin {margin:0px;}
-.bold {font-weight: bold;}
-.white-text {color: white;}
 .dark-text{color: var(--text-color_dark)}
 .txt-center{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
 .mark-black{background-color:var(--marking-color); }
-.hidn-link{text-decoration: wavy; color:var(--tertiary-color);}
 
 /* Decoration and styling */
 .border {border: 1px solid black;}
 .noborder {border:none;}
 .radius{border-radius: 4px;}
 .header-prod {padding-top: 15px; padding-bottom: 10px;}
-.red {color: red;}
 .black{color:#000000}
 
 /* Image */
@@ -73,35 +61,6 @@ a:hover {text-decoration: underline; color:var(--tertiary-color);
 .img-grey{filter: grayscale(0%);}
 .img-grey:hover{filter: grayscale(0%);}
 .img-max {width: 100%;}
-
-/* Forms */
-.form-container{width: 270px; padding:0px 40px 30px;}
-.form-txtbox{height: 100px;}
-.form-input {border: #000000 solid 1px; font-size: 0.9rem;}
-.green-box{border: green solid 2px;}
-button:hover{color: rgb(91, 130, 140);}
-
-/* Buttons */
-.button-buy{width: 345px;}
-.button-large {padding: 5px 20px 5px 20px;}
-.button {
-  background-color: #111010;
-  font-size: 2em;
-  text-transform: uppercase;
-  border-radius: 2px;
-  margin: 0px;
-  font-weight: bold;
-}
-
-.button-small {
-  padding: 8px 20px;
-  font-size: 0.8em;
-  grid-column: 2;
-  grid-row: 2;
-  min-width: 51.2px;
-  text-align: center;
-  margin-top: 5px;
-}
 
 
 
@@ -112,31 +71,35 @@ header {background-color: var(--primary-color);}
 .main_logo {padding: 15px 15px 5px 25px;}
 .main_logo img {max-height: 10vh;}
 .logo-text{font-weight: bold; font-size: 0.8rem;}
-nav {display: none; position: absolute; top: 80px; z-index: 1000; right: 0px; font-size: 1.3rem; font-weight: 500;}
+nav {background-color: var(--primary-color); display: none; position: absolute; top: 80px; z-index: 1000; right: 0px; font-size: 1.3rem; font-weight: 500;}
 nav li {display: block; padding: 10px 10px; color: var(--text-color_dark); }
 #hamburger_menu {display: none;}
 #hamburger_menu:checked ~ nav {display: block;}
 .fas {color: var(--text-color_dark);}
-.fas:hover{color:var(--text-color_dark) ;}
+.fas:hover{color:var(--tertiary-color) ;}
 
 /*--- Index/Landingpage ---*/
 /* Main image */
 .frontpage {
   background-image: url(../images/upfeathers.png);
   background-color: #ffffff;
-  background-size: 40%;
+  background-size: 10%;
   background-position-x: center;
 }
-
 
 /*categories*/
 .cat-margin{margin-top: 5px;}
 .cat-container{height: 100%;}
 .cat-dir{flex-direction: column;}
-.cat-tile {position: relative; text-align: center; color: white; padding: 0px 5px 0px 5px;}
+.cat-tile {position: relative; text-align: center; color: white; padding: 10px 0px 10px 0px;}
+.link-tile {color: var(--link-color_white);}
+.link-tile:visited {color: var(--link-color_white);}
 
-/*--- Contact ---*/
-/* Noting here */
+.tile-pic{height: 350px; width: 410px;}
+.tile-pic1{background-image: url(../images/furniture.jpg); background-size: cover;}
+.tile-pic2{background-image: url(../images/lighting.jpg); background-size: cover;}
+.tile-pic3{background-image: url(../images/accessories.jpg); background-size: cover;}
+
 
 /*--- Catergory pages ---*/
 .grid {display:grid;}
@@ -186,7 +149,8 @@ nav li {display: block; padding: 10px 10px; color: var(--text-color_dark); }
 /*--- Footer (⚠JS⚠)---*/
 footer ul {font-size: 0.8rem; margin-top: 0px; margin-bottom: 5px;}
 .footer-container{width: 200px; padding-top: 25px; padding-bottom: 25px; flex-direction: column;}
-.link {text-decoration: underline; text-decoration-color: rgb(91, 130, 140);}
+.link {color:var(--link-color_white); text-decoration: underline; text-decoration-color:var(--tertiary-color);}
+/* .link a:before, .link a:after {color: var(--link-color_white);} */
 .li_foot {font-size: 1.2rem; overflow: hidden; text-transform: uppercase;}
 
 footer {
@@ -197,7 +161,8 @@ footer {
   font-size: 0.8rem;
   max-width: 600px;
 }
-footer a:visited{color: white;}
+footer a{color: var(--link-color_white) !important;}
+footer a:visited{color:var(--link-color_white);}
 footer a:hover {color: var(--tertiary-color);}
 
 /*--- Media Quaries ---*/
@@ -211,6 +176,7 @@ footer a:hover {color: var(--tertiary-color);}
   footer {justify-content: space-evenly; padding: 0px; max-width: 100%;}
 
   .top-row {min-height: 350px;}
+  .cat-tile{padding:10px 0px 10px 0px;}
   .products-list {grid-template-columns: repeat(2, minmax(0, 1fr));}
   .products img {max-height: 200px;}
   .preview {flex-direction: row; align-items: flex-start;}
@@ -227,7 +193,9 @@ footer a:hover {color: var(--tertiary-color);}
 
   .top-row {min-height: 300px;}
   .img-max {max-height: 220px;}
+  .tile-pic{height: 360px; width: 250px;}
   .cat-dir {flex-direction: row;}
+  .cat-tile{padding:0px 5px 0px 5px;}
   .preview-small {flex-direction: column;}
   .grid-prod-temp{ grid-template-columns: repeat(2, minmax(0, 1fr));}
   .footer-container{width: 900px;flex-direction: row;}
@@ -240,6 +208,7 @@ footer a:hover {color: var(--tertiary-color);}
 @media (min-width: 1000px) {
   .top-row {min-height: 365px;}
   .img-max {max-height: 290px;}
+  .tile-pic{height: 360px; width: 320px;}
   .grid-prod-temp{ grid-template-columns: repeat(3, minmax(0, 1fr));}
   .products-list {grid-template-columns: repeat(3, minmax(0, 1fr));}
   .products img {max-height: 180px;}
@@ -257,6 +226,7 @@ footer a:hover {color: var(--tertiary-color);}
 @media (min-width: 1200px) {
   .top-row {min-height: 365px;}
   .img-max {max-height: 360px;}
+  .tile-pic{height: 410px; width: 390px;}
   .picture-container {margin-right: 15px; flex-direction: row;}
   .products-list {grid-template-columns: repeat(3, minmax(0, 1fr));}
   .products img {max-height: 180px;}

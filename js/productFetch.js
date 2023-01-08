@@ -1,33 +1,30 @@
 //API Fetch product
 
 // Queries
-const categoryMen = `${apiParams}&category=18`;
-const categoryWomen = `${apiParams}&category=16`;
-const categoryChildren = `${apiParams}&category=17`;
 
 //Elements
-const pageCategory = document.querySelectorAll(".categories");
-const productContainer = document.querySelector(".productContainer");
+// const pageCategory = document.querySelectorAll(".categories");
+// const productContainer = document.querySelector(".productContainer");
 
 //Listners
-window.addEventListener("hashchange", fetchProducts);
+// window.addEventListener("hashchange", fetchProducts);
 
 //Functions
-function getApiUrl(category) {
-  switch (category) {
-    case "men":
-      return apiParams + categoryMen;
+// function getApiUrl(category) {
+//   switch (category) {
+//     case "men":
+//       return apiParams + categoryMen;
 
-    case "women":
-      return apiParams + categoryWomen;
+//     case "women":
+//       return apiParams + categoryWomen;
 
-    case "children":
-      return apiParams + categoryChildren;
+//     case "children":
+//       return apiParams + categoryChildren;
 
-    default:
-      return apiParams;
-  }
-}
+//     default:
+//       return apiParams;
+//   }
+// }
 
 function fetchProducts() {
   const category = window.location.hash.slice(1);
