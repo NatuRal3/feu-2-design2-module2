@@ -4,13 +4,10 @@
   --secondary-color: #BCBCBC;
   --tertiary-color: #C65D7B;
   --marking-color: #bbc4bb;
-  
   --text-color-headers:#18181A;
   --text-color_dark: #18181A;
   --link-color_white:white;
- 
   --footer-color:#18181A;
-
 }
 
 
@@ -80,7 +77,7 @@ nav li {display: block; padding: 10px 10px; color: var(--text-color_dark); }
 
 /*--- Index/Landingpage ---*/
 /* Main image */
-.frontpage {
+body {
   background-image: url(../images/upfeathers.png);
   background-color: #ffffff;
   background-size: 10%;
@@ -131,13 +128,6 @@ nav li {display: block; padding: 10px 10px; color: var(--text-color_dark); }
 .cart-color {background-color: rgb(91, 130, 140,0.5);}
 .cart-list {padding: 0px 5px 0px 5px;}
 
-/* Payment */
-.pay-container{max-width: 345px;}
-.pay-input-small{max-width: 50px;}
-.form-header {padding: 10px 0px;}
-
-/*--- Checkout ---*/
-.ccout-cont{padding: 0px 10px;}
 
 /*--- History ---*/
 .history-container{max-width: 1000px; margin-left: auto;margin-right: auto; padding: 20px;}

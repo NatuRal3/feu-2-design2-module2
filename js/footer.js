@@ -22,8 +22,8 @@ footerContent.innerHTML += `
 
           <h2>Follow</h2>
           <ul>
-            <li class="link"><a href="www.instagram.com">Intsagram</a></li>
-            <li class="link"><a href="www.facebook.com">Facebook</a></li>
+            <li class="link"><a target="_blank" href="https://www.instagram.com">Intsagram</a></li>
+            <li class="link"><a target="_blank" href="https://www.facebook.com">Facebook</a></li>
           </ul>
         </div>
 
