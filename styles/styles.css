@@ -89,6 +89,7 @@ body {
 .cat-dir{flex-direction: column;}
 .cat-tile {position: relative; text-align: center; color: white; padding: 10px 0px 10px 0px;}
 .link-tile {color: var(--link-color_white)!important;}
+.link-tile:hover {color:var(--tertiary-color) !important;}
 .link-tile:visited {color: var(--link-color_white);}
 
 .tile-pic{height: 350px; width: 410px;}
