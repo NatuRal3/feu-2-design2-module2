@@ -110,7 +110,7 @@ body {
 
 .category-intro{height:200px; width: 625px; border-radius: 6px;}
 .intro-text{position: absolute; margin-top: 3rem;}
-.products-con{max-width: 1100px; padding-top: 50px;}
+.products-con{max-width: 1100px; padding-top: 50px; display: flex; flex-direction: column;}
 
 .accessories-img{background-image: url(../images/intro-kitchen.png); background-size: cover;filter: grayscale(100%);}
 
@@ -212,6 +212,7 @@ footer a:visited{color:var(--link-color_white);}
   .form-container{width: 900px;}
   .form-message{height: 300px;}
   
+
 }
 
 /*-- 1000Px --*/
@@ -230,6 +231,11 @@ footer a:visited{color:var(--link-color_white);}
   .form-innerdiv {flex-direction: row; align-items: center;}
   .pay-container{max-width: 490px;} 
   .button-buy{width: 430px;}
+
+
+  .products-con {display: flex; flex-direction: row;}
+
+
 }
 
 /*-- 1200Px --*/
