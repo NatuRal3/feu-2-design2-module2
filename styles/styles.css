@@ -109,6 +109,7 @@ body {
 .products img {max-height: 360px;}
 
 .category-intro{height:200px; width: 625px; border-radius: 6px;}
+.intro-text{position: absolute; margin-top: 3rem;}
 .products-con{max-width: 1100px; padding-top: 50px;}
 
 .accessories-img{background-image: url(../images/intro-kitchen.png); background-size: cover;filter: grayscale(100%);}
