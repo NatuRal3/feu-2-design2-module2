@@ -119,6 +119,7 @@ body {
 .product-image img {max-width: 200px; max-height: 170px;}
 .product-price{margin-top: 5px;}
 .prod-desc {margin-top: 10px;}
+.rating-star {height: 1.5rem;}
 .fa-solid {color: var(--tertiary-color);}
 nav li :hover {color: var(--tertiary-color)!important;}
 
