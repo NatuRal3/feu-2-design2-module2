@@ -233,7 +233,7 @@ footer a:visited{color:var(--link-color_white);}
   .button-buy{width: 430px;}
 
 
-  .products-con {display: flex; flex-direction: row;}
+
 
 
 }
@@ -246,4 +246,5 @@ footer a:visited{color:var(--link-color_white);}
   .picture-container {margin-right: 15px; flex-direction: row;}
   .products-list {grid-template-columns: repeat(3, minmax(0, 1fr));}
   .products img {max-height: 180px;}
+  .products-con {display: flex; flex-direction: row;}
 } 
